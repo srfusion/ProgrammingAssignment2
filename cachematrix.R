@@ -27,6 +27,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
+<<<<<<< HEAD
+=======
+        ## Return a matrix that is the inverse of 'x'
+>>>>>>> refs/remotes/origin/test
 		m <- x$getinverse()
 		if (!is.null(m)) {
 				message("getting from the cached matrix")
